@@ -1,11 +1,11 @@
 li {
   margin-bottom: 16px;
 }
-li:nth-child(1) span {
+li:first-child span {
   background-color: red;
   color: white;
 }
-li:nth-last-child(1) span {
+li:last-child span {
   background-color: black;
   color: white;
 }
