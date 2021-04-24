@@ -1,0 +1,17 @@
+div {
+  margin: 50px;
+  border: 2px solid black;
+}
+.a {
+  background-color: blue;
+}
+.b {
+  background-color: yellow;
+}
+.c {
+  background-color: green;
+}
+.d {
+  padding: 50px;
+  background-color: pink;
+}
