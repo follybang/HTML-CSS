@@ -4,6 +4,7 @@
 
 .gallery {
   display: flex;
+  overflow: auto;
 }
 
 .gallery:hover {
