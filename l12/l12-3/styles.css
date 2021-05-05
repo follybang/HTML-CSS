@@ -1,16 +1,16 @@
-li {
+.list {
   list-style-type: none;
   font-size: 1.5em;
 }
 
-li:nth-child(3) {
+.third {
   text-decoration: underline green;
 }
 
-li:nth-child(2) {
+.second {
   text-decoration: line-through;
 }
 
-li:first-child {
+.first {
   text-decoration: overline red;
 }
