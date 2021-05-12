@@ -1,5 +1,5 @@
 .checkbox {
-  display: block;
+  display: inline-block;
   margin: 16px;
   position: relative;
   font-size: 24px;
@@ -8,6 +8,8 @@
 
 input {
   visibility: hidden;
+  width: 0;
+  height: 0;
 }
 
 .checkmark {
