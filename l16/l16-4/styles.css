@@ -51,7 +51,6 @@
   border-radius: 4px;
   color: white;
   text-transform: uppercase;
-  border: 0;
 }
 
 input:invalid {
