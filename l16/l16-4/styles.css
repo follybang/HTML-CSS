@@ -3,21 +3,19 @@
 }
 
 .page {
-  height: 100vh;
   background-color: bisque;
+  height: 100vh;
+  display: flex;
+  font-family: monospace;
+  font-size: 16px;
 }
 
 .login-form {
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  font-size: 16px;
-  font-family: monospace;
-  background-color: aqua;
   width: 300px;
+  background-color: aqua;
   padding: 16px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  margin: auto;
 }
 
 .form-title {
