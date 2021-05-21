@@ -2,6 +2,7 @@ form {
   margin: 32px;
 }
 
-.ctrl {
+.ctrl,
+.languages {
   margin: 8px;
 }
