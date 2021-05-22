@@ -6,7 +6,7 @@
 table {
   text-align: right;
   width: 500px;
-  margin: 16px;
+  margin-left: 16px;
   border-collapse: collapse;
 }
 
@@ -18,7 +18,7 @@ td {
 
 th,
 td {
-  padding: 4px;
+  padding-right: 4px;
 }
 
 .table1 {
