@@ -17,8 +17,8 @@ td {
 
 th,
 td {
-  padding: 0px 4px 0px 4px;
-  line-height: 40px;
+  padding: 4px;
+  height: 40px;
 }
 
 .table1 {
