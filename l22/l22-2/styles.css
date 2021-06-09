@@ -1,0 +1,54 @@
+.nav-block {
+  background-color: #ff7f50;
+  display: flex;
+}
+
+.list-block {
+  background-color: #006400;
+  display: flex;
+}
+
+.news-block {
+  background-color: #0ff;
+  display: flex;
+}
+
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  text-transform: lowercase;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+}
+
+.block {
+  height: 200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .group {
+    display: flex;
+  }
+  .nav-block,
+  .list-block {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+  .group {
+    width: calc(100% / 3 * 2);
+  }
+  .news-block {
+    width: calc(100% / 3);
+  }
+}
