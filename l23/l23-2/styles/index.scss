@@ -15,7 +15,7 @@ body {
   width: 100px;
   height: 100px;
   background-color: $main-color;
-  margin: $unit;
+  margin: $unit * 2;
 
   @include for-medium-up {
     background-color: $second-color;
@@ -27,6 +27,10 @@ body {
 
   @include for-extra-large {
     background-color: $fourth-color;
+  }
+
+  @include orientation-land {
+    margin: $unit;
   }
 }
 
