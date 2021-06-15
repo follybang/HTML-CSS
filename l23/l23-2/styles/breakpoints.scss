@@ -1,0 +1,39 @@
+$sm: 600px;
+$md: 800px;
+$lg: 900px;
+$ex-lg: 1200px;
+
+$main-color: #ff7f50;
+$second-color: #8a2be2;
+$third-color: #a61;
+$fourth-color: #c47;
+
+@mixin for-extra-small {
+  @media screen and (max-width: $sm - 1) {
+    @content;
+  }
+}
+
+@mixin for-medium-up {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin for-large-up {
+  @media screen and (min-width: $lg) {
+    @content;
+  }
+}
+
+@mixin for-extra-large {
+  @media screen and (min-width: $ex-lg) {
+    @content;
+  }
+}
+
+@mixin orientation-land {
+  @media screen and (orientation: landscape) {
+    @content;
+  }
+}
