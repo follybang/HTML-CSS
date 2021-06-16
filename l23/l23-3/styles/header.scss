@@ -1,0 +1,55 @@
+@import 'variables.scss';
+
+.header {
+  height: 3em;
+  background-color: $main-color;
+}
+
+.menu {
+  display: flex;
+  margin: 0 0 0 3em;
+  padding: 0;
+  text-transform: uppercase;
+  align-items: center;
+
+  &__item {
+    padding: 0 8px;
+    list-style-type: none;
+    line-height: 3em;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $second-color;
+    }
+
+    &_active {
+      color: yellow;
+    }
+  }
+}
+
+.submenu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: $third-color;
+  color: $text-color;
+  min-width: 120px;
+  position: absolute;
+  display: none;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  &__item {
+    padding: 0 8px;
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+.menu__item_active {
+  &:hover {
+    .submenu {
+      display: block;
+    }
+  }
+}
