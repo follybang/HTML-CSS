@@ -1,0 +1,23 @@
+$first-color: #ff7f50;
+$second-color: #006400;
+$third-color: #0ff;
+$bckgrnd-color: #faebd7;
+$unit: 4px;
+
+@mixin for-small {
+  @media screen and (max-width: 600px - 1px) {
+    @content;
+  }
+}
+
+@mixin for-medium {
+  @media screen and (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin for-large {
+  @media screen and (min-width: 900px) {
+    @content;
+  }
+}

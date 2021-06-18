@@ -1,0 +1,36 @@
+@import 'layout.scss';
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container_group {
+  @include for-medium {
+    display: flex;
+  }
+}
+
+.container {
+  &__item1,
+  &__item2 {
+    @include for-medium {
+      flex-grow: 1;
+    }
+  }
+}
+
+.container {
+  @include for-large {
+    display: flex;
+  }
+  &_group {
+    @include for-large {
+      width: calc(100% / 3 * 2);
+    }
+  }
+  &__item {
+    @include for-large {
+      width: calc(100% / 3);
+    }
+  }
+}

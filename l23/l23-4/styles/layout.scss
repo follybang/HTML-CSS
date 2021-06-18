@@ -1,0 +1,30 @@
+@import 'variables.scss';
+
+.container {
+  &__item1 {
+    background-color: $first-color;
+  }
+  &__item2 {
+    background-color: $second-color;
+  }
+}
+
+.container__item {
+  background-color: $third-color;
+}
+
+.container__item1,
+.container__item2,
+.container__item {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-text {
+    background-color: $bckgrnd-color;
+    text-transform: lowercase;
+    border-radius: $unit;
+    padding: $unit * 2;
+  }
+}
